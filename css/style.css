@@ -312,7 +312,11 @@ body {
 }
 
 .link-box a i {
-    font-size: 3.3rem;
+    font-size: 2.3rem;
+}
+
+.skills-box .port-icon {
+    font-size: 4rem;
 }
 
 
