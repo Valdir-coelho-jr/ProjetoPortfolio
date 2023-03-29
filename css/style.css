@@ -225,6 +225,7 @@ body {
 /* portfolio
 ----------------------------------------*/
 .portfolio {
+    text-shadow: 1px 1px var(--bg-color);
     background: var(--second-bg-color);
 }
 
@@ -281,9 +282,18 @@ body {
     font-size: 4rem;
 }
 
+.portfolio-layer h5 {
+    font-size: 2.3rem;
+    margin: 1rem;
+}
+
+.portfolio-layer a {
+    margin: 5px;
+}
+
 .portfolio-layer p {
     font-size: 1.6rem;
-    margin: .3rem 0 1rem;
+    margin: 0.7rem 0 1rem;
 }
 
 .portfolio-layer a {
@@ -300,6 +310,12 @@ body {
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+
+.link-box a i {
+    font-size: 3.3rem;
+}
+
+
 
 /* contact
 ----------------------------------------*/
