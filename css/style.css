@@ -279,11 +279,11 @@ body {
 }
 
 .portfolio-layer h4 {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .portfolio-layer h5 {
-    font-size: 2.3rem;
+    font-size: 1.3rem;
     margin: 1rem;
 }
 
@@ -292,7 +292,7 @@ body {
 }
 
 .portfolio-layer p {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     margin: 0.7rem 0 1rem;
 }
 
@@ -307,7 +307,7 @@ body {
 }
 
 .portfolio-layer a i {
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--second-bg-color);
 }
 
