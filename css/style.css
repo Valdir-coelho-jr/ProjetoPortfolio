@@ -222,25 +222,25 @@ body {
     margin: 1rem 0 3rem;
 }
 
-/* portfolio
+/* Projects
 ----------------------------------------*/
-.portfolio {
+.projects {
     text-shadow: 1px 1px var(--bg-color);
     background: var(--second-bg-color);
 }
 
-.portfolio h2 {
+.projects h2 {
     margin-bottom: 4rem;
 }
 
-.portfolio-container {
+.projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
 
-.portfolio-container .portfolio-box {
+.projects-container .projects-box {
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
@@ -248,16 +248,16 @@ body {
     display: flex;
 }
 
-.portfolio-box img {
+.projects-box img {
     width: 100%;
     transition: .5s ease;
 }
 
-.portfolio-box:hover img {
+.projects-box:hover img {
     transform: scale(1.1)
 }
 
-.portfolio-box .portfolio-layer {
+.projects-box .projects-layer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -274,29 +274,29 @@ body {
     transition: .5s ease;
 }
 
-.portfolio-box:hover .portfolio-layer {
+.projects-box:hover .projects-layer {
     transform: translateY(0%);
 }
 
-.portfolio-layer h4 {
+.projects-layer h4 {
     font-size: 2.5rem;
 }
 
-.portfolio-layer h5 {
+.projects-layer h5 {
     font-size: 1.3rem;
     margin: 1rem;
 }
 
-.portfolio-layer a {
+.projects-layer a {
     margin: 5px;
 }
 
-.portfolio-layer p {
+.projects-layer p {
     font-size: 1.1rem;
     margin: 0.7rem 0 1rem;
 }
 
-.portfolio-layer a {
+.projects-layer a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -306,7 +306,7 @@ body {
     border-radius: 50%;
 }
 
-.portfolio-layer a i {
+.projects-layer a i {
     font-size: 1rem;
     color: var(--second-bg-color);
 }
@@ -455,7 +455,7 @@ span {
         padding-bottom: 7rem;
     }
 
-    .portfolio {
+    .projects {
         padding-bottom: 7rem;
     }
 
@@ -526,17 +526,17 @@ span {
         margin-bottom: 3rem;
     }
 
-    .portfolio h2 {
+    .projects h2 {
         margin-bottom: 3rem;
     }
 
-    .portfolio-container {
+    .projects-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 617px) {
-    .portfolio-container {
+    .projects-container {
         grid-template-columns: 1fr;
     }
 }
