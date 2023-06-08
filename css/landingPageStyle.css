@@ -166,6 +166,10 @@
 }
 
 @media (max-width: 1200px) {
+  .video {
+    width: 45vw;
+    height: 35vh;
+  }
 }
 
 @media (max-width: 991px) {
@@ -175,6 +179,10 @@
 }
 
 @media (max-width: 617px) {
+  .video {
+    width: 55vw;
+    height: 25vh;
+  }
 }
 
 @media (max-width: 450px) {
