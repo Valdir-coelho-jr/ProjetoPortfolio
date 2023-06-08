@@ -1,0 +1,195 @@
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #00eeff;
+}
+
+#video-section {
+  width: 100%;
+  height: 100%;
+}
+
+#video-section h1,
+#video-section p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+#video-section p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.video-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.video-link a {
+  font-size: 1.5rem;
+}
+
+.video {
+  width: 60vw;
+  height: 75vh;
+  border: 4px solid var(--main-color);
+  border-radius: 0.5%;
+  box-shadow: 0 0 2rem var(--main-color);
+  margin-top: 3.5rem;
+}
+
+/* Video Resume
+----------------------------------------*/
+#videoResume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 4rem;
+  margin-top: 5rem;
+  background-color: var(--second-bg-color);
+  gap: 2rem;
+}
+
+/* Resources
+----------------------------------------*/
+#resources h2 {
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.resources-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.resources-container .resources-box {
+  flex: 1 1 30rem;
+  align-items: center;
+  background-color: var(--second-bg-color);
+  border: 0.2rem solid var(--second-bg-color);
+  text-align: center;
+  border-radius: 2rem;
+  padding: 3rem;
+}
+
+.resources-box {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  color: var(--text-color);
+  margin: 2rem;
+  transition: 0.3s ease;
+}
+
+.resources-box h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.resource-item {
+  margin: 2rem;
+  padding: 1.5rem 2rem;
+  letter-spacing: 0.2rem;
+  background-color: var(--main-color);
+  font-weight: bolder;
+  border-radius: 0.5rem;
+}
+
+.resource-item a {
+  text-decoration: none;
+  color: var(--second-bg-color);
+}
+
+.resources-container .resources-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.1);
+}
+
+/* Contact
+----------------------------------------*/
+
+#contact h1 {
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  padding-top: 2.5rem;
+}
+
+.contact-box {
+  width: 30vw;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5rem;
+  transition: 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: scale(1.1);
+}
+
+.contact-item a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/* Breakpoints
+--------------------------------------*/
+@media (max-width: 1370px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 617px) {
+}
+
+@media (max-width: 450px) {
+  .contact-container {
+    display: grid;
+    place-items: center;
+  }
+  .contact-box {
+    width: 90vw;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 365px) {
+  .contact-item {
+    margin: 0rem;
+  }
+}
