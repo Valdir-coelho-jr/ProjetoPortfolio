@@ -249,7 +249,7 @@ body {
 
 .projects-box img {
   width: 100%;
-  max-height: 250px;
+  max-height: 300px;
   transition: 0.5s ease;
 }
 
@@ -294,6 +294,7 @@ body {
 .projects-layer p {
   font-size: 1.1rem;
   margin: 0.7rem 0 1rem;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
 .projects-layer a {
