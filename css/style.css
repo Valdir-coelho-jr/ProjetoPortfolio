@@ -515,6 +515,21 @@ span {
     display: block;
   }
 
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .button-container a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-img {
+    width: 50%; /* Define a largura do container da imagem */
+  }
+
   .navbar {
     position: absolute;
     top: 100%;
@@ -596,8 +611,8 @@ span {
 }
 
 @media (max-width: 365px) {
-  .home-img img {
-    width: 90vw;
+  .home-img {
+    width: 50%;
   }
 
   .about-img img {
@@ -606,4 +621,14 @@ span {
   .footer-text p {
     font-size: 1.1rem;
   }
+
+  .social-media {
+    display: flex;
+  }
+
+  .button-container a {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
